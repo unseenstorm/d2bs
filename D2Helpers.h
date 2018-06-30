@@ -88,7 +88,7 @@ void  __fastcall D2CLIENT_ClickItemRight_ASM(DWORD x, DWORD y, DWORD Location, D
 void  __fastcall D2CLIENT_ClickBelt(DWORD x, DWORD y, Inventory* pInventoryData);
 void  __fastcall D2CLIENT_ClickBeltRight_ASM(DWORD pInventory, DWORD pPlayer, DWORD HoldShift, DWORD dwPotPos);
 void  __fastcall D2CLIENT_GetItemDesc_ASM(DWORD pUnit, wchar_t* pBuffer);
-void  __fastcall D2COMMON_DisplayOverheadMsg_ASM(DWORD pUnit);
+//void  __fastcall D2COMMON_DisplayOverheadMsg_ASM(DWORD pUnit);
 void  __fastcall D2CLIENT_MercItemAction_ASM(DWORD bPacketType, DWORD dwSlot);
 DWORD __fastcall D2CLIENT_LoadUIImage_ASM(char* lpszPath);
 void __fastcall D2CLIENT_PlaySound(DWORD dwSoundId);
