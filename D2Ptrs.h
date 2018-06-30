@@ -479,7 +479,7 @@ FUNCPTR(D2GAME, exit0, DWORD __fastcall, (), 0x576F) //NEW 1.14d //0040576F-BASE
 #define D2CLIENT_MercItemAction(bPacketType, dwSlotId)	D2CLIENT_MercItemAction_ASM(bPacketType, dwSlotId)
 #define D2CLIENT_SendGamePacket(dwLen, bPacket)			D2CLIENT_SendGamePacket_ASM(dwLen, bPacket)
 
-#define D2COMMON_DisplayOverheadMsg(pUnit)				D2COMMON_DisplayOverheadMsg_ASM((DWORD)pUnit)
+//#define D2COMMON_DisplayOverheadMsg(pUnit)				D2COMMON_DisplayOverheadMsg_ASM((DWORD)pUnit)
 
 #define D2GFX_DrawFrame(Rect)							D2GFX_DrawRectFrame_STUB(Rect)
 
