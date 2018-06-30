@@ -105,7 +105,7 @@ void Print(const char * szFormat, ...)
 	delete[] str;
 	str = NULL;
 }
-
+/*
 void __declspec(naked) __fastcall Say_ASM(DWORD dwPtr)
 {
 	__asm
@@ -162,7 +162,7 @@ void __fastcall Say(const char *szMessage)
 		delete aMsg;
 		aMsg = NULL;
 
-		//Print("ÿc2D2BSÿc0 :: say() in game has been disabled for now, due to crashes");
+		//Print("Ã¿c2D2BSÃ¿c0 :: say() in game has been disabled for now, due to crashes");
 /*
 		Vars.bDontCatchNextMsg = FALSE;
 		int len = 6+strlen(szMessage);
@@ -173,7 +173,7 @@ void __fastcall Say(const char *szMessage)
 		memcpy(pPacket+3, szMessage, len-6);
 		D2CLIENT_SendGamePacket(len, pPacket);
 		delete [] pPacket;
-	*/
+	
 	}
 	// help button and ! ok msg for disconnected
 	else if(findControl(CONTROL_BUTTON, 5308, -1, 187,470,80,20) && (!findControl(CONTROL_BUTTON, 5102, -1, 351,337,96,32)))	
@@ -182,7 +182,7 @@ void __fastcall Say(const char *szMessage)
 		D2MULTI_DoChat();
 	}
 }
-
+*/
 bool ClickMap(DWORD dwClickType, int wX, int wY, BOOL bShift, UnitAny* pUnit)
 {
 	if(ClientState() != ClientStateInGame)
