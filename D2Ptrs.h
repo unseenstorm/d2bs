@@ -290,8 +290,8 @@ FUNCPTR(D2COMMON, GetItemMagicalMods, char* __stdcall, (WORD wPrefixNum), 0x233E
 FUNCPTR(D2COMMON, GetItemFromInventory, UnitAny *__stdcall, (Inventory* inv), 0x23B2C0) //Updated 1.14d //0063B2C0-BASE
 FUNCPTR(D2COMMON, GetNextItemFromInventory, UnitAny *__stdcall, (UnitAny *pItem), 0x23DFA0) //Updated 1.14d //0063DFA0-BASE
 
-FUNCPTR(D2COMMON, GenerateOverheadMsg, OverheadMsg* __stdcall, (DWORD dwUnk, CHAR* szMsg, DWORD dwTrigger), 0x261110) //Updated 1.14d //00661110-BASE
-FUNCPTR(D2COMMON, FixOverheadMsg, VOID __stdcall, (OverheadMsg* pMsg, DWORD dwUnk), 0x261230)//Updated 1.14d //00661230-BASE
+//FUNCPTR(D2COMMON, GenerateOverheadMsg, OverheadMsg* __stdcall, (DWORD dwUnk, CHAR* szMsg, DWORD dwTrigger), 0x261110) //Updated 1.14d //00661110-BASE
+//FUNCPTR(D2COMMON, FixOverheadMsg, VOID __stdcall, (OverheadMsg* pMsg, DWORD dwUnk), 0x261230)//Updated 1.14d //00661230-BASE
 
 FUNCPTR(D2COMMON, AddRoomData, void __stdcall, (Act * ptAct, int LevelId, int Xpos, int Ypos, Room1 * pRoom), 0x21A070) //Updated 1.14d //0061A070-BASE
 FUNCPTR(D2COMMON, RemoveRoomData, void __stdcall, (Act * ptAct, int LevelId, int Xpos, int Ypos, Room1 * pRoom), 0x21A0C0) //Updated 1.14d //0061A0C0-BASE
@@ -318,7 +318,7 @@ VARPTR(D2COMMON, sgptDataTable, DWORD, 0x344304) //Updated 1.14d //00744304-BASE
 // D2Common Stubs
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
-ASMPTR(D2COMMON, DisplayOverheadMsg_I, 0x2611A0) //Updated 1.14d //006611A0-BASE
+//ASMPTR(D2COMMON, DisplayOverheadMsg_I, 0x2611A0) //Updated 1.14d //006611A0-BASE
 ASMPTR(D2COMMON, GetLevelIdFromRoom_I, 0x21A1B0) //Updated 1.14d //0061A1B0-BASE
 
 
